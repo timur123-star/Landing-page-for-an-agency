@@ -7,7 +7,7 @@ Multilingual, animated, accessible, and built to feel like the real thing.
 
 `Next.js 14` · `Tailwind CSS` · `Framer Motion` · `next-intl` · `Radix UI`
 
-[![CI](https://github.com/timur123-star/Landing-page-for-an-agency/actions/workflows/ci.yml/badge.svg?branch=devin%2F1778254105-saas-landing)](https://github.com/timur123-star/Landing-page-for-an-agency/actions/workflows/ci.yml)
+[![CI](https://github.com/timur123-star/Landing-page-for-an-agency/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/timur123-star/Landing-page-for-an-agency/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
