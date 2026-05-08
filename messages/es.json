@@ -1,0 +1,875 @@
+{
+  "site": {
+    "tagline": "Estudio digital de ciclo completo",
+    "description": "Construimos sitios de producto, branding y design systems que convierten tráfico en ingresos. De la estrategia al lanzamiento en 4–8 semanas.",
+    "address": "Lisboa · Berlín · Tbilisi",
+    "rights": "Todos los derechos reservados.",
+    "madeBy": "Hecho con Next.js · Tailwind · Framer Motion",
+    "portfolioNote": "Proyecto de portfolio — agencia ficticia",
+    "author": "Diseñado y desarrollado por Timur Valerievich",
+    "selectLanguage": "Idioma de la interfaz"
+  },
+  "nav": {
+    "services": "Servicios",
+    "process": "Proceso",
+    "cases": "Trabajos",
+    "work": "Casos de estudio",
+    "journal": "Journal",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "sectionIndicator": {
+    "top": "Inicio",
+    "why": "Por qué un estudio",
+    "services": "Servicios",
+    "process": "Proceso",
+    "cases": "Casos",
+    "testimonials": "Testimonios",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "primary": "Iniciar proyecto",
+    "secondary": "Ver casos",
+    "discuss": "Contactar"
+  },
+  "hero": {
+    "badge": "Aceptamos 2 proyectos en diciembre",
+    "rating": "4.9 / 5 · 90+ reseñas",
+    "title": "Diseño y desarrollo de sitios SaaS que convierten.",
+    "highlight": "convierten",
+    "subtitle": "NOVA es un estudio de producto para SaaS B2B y fintech. Estrategia, branding, diseño de producto y desarrollo en Next.js — en 4–8 semanas.",
+    "subtitlePrefix": "NOVA es un estudio de producto para SaaS B2B y fintech.",
+    "rotatingWords": ["Estrategia", "Branding", "Diseño", "Desarrollo"],
+    "subtitleSuffix": "y lanzamiento en Next.js — en 4–8 semanas.",
+    "socialPrefix": "Ya trabajan con nosotros",
+    "socialBold": "más de 40 empresas",
+    "socialSuffix": "— de startups a Series B",
+    "scrollHint": "Desplaza para explorar",
+    "visualUrl": "app.lumen.io / dashboard",
+    "visualVersion": "v2.4",
+    "visualConversion": "Conversión",
+    "visualLighthouse": "Lighthouse",
+    "visualRevenue": "Ingresos · últimos 30 días",
+    "visualOnline": "+1.240 conectados ahora",
+    "visualLive": "EN VIVO"
+  },
+  "logos": {
+    "label": "Confiados por equipos que aman su producto",
+    "availability": "2 huecos libres en diciembre",
+    "trust": [
+      { "value": "30+", "label": "productos lanzados" },
+      { "value": "98", "label": "NPS de clientes" },
+      { "value": "6 sem.", "label": "ciclo MVP medio" }
+    ]
+  },
+  "problemSolution": {
+    "badge": "Por qué un estudio, no un freelance",
+    "title": "Un sitio ≠ un Figma. Es un sistema de ventas.",
+    "subtitle": "Convertimos estrategia en producto y producto en ingresos. Nos hacemos cargo de las métricas, no solo de los píxeles.",
+    "problemKicker": "La historia de siempre",
+    "problemHeading": "Si pediste un sitio sin agencia",
+    "solutionKicker": "Cómo lo hacemos",
+    "solutionHeading": "Enfoque NOVA: producto, métricas, sin relleno",
+    "problems": [
+      "El sitio se parece a la competencia y no explica el valor en 5 segundos",
+      "Los proveedores se eternizan y se saltan los plazos",
+      "Nadie es dueño de las métricas, solo del «se ve bonito»",
+      "Cada cambio se convierte en una odisea de una semana"
+    ],
+    "solutions": [
+      "Una marca y oferta imposibles de confundir con la competencia",
+      "Lanzamiento en 4–8 semanas con plan transparente y sprints de 2 semanas",
+      "Un equipo de producto enfocado en conversión y métricas reales",
+      "Design system y CMS para que tu equipo pueda hacer cambios solo"
+    ]
+  },
+  "services": {
+    "badge": "Servicios del estudio",
+    "title": "Ciclo completo — de la estrategia al retainer",
+    "subtitle": "Un equipo de estrategas, diseñadores, ingenieros y product marketers. Cogemos el proyecto entero o solo el bloque que necesites.",
+    "popular": "Popular",
+    "items": {
+      "branding": {
+        "title": "Branding e identidad",
+        "description": "Logo, design system, guidelines y todos los soportes — un único lenguaje reconocible que vende antes del primer contacto con el producto.",
+        "bullets": [
+          "Estrategia y posicionamiento",
+          "Logo y tokens",
+          "Brand book"
+        ]
+      },
+      "product": {
+        "title": "Diseño de producto",
+        "description": "UX/UI para SaaS, web apps y mobile. Prototipos, tests de usabilidad y design systems componentizados en Figma.",
+        "bullets": [
+          "Auditoría UX y métricas",
+          "UI y motion",
+          "Design System en Figma"
+        ]
+      },
+      "web": {
+        "title": "Desarrollo web",
+        "description": "Next.js, TypeScript, headless CMS. Código limpio, Lighthouse 95+, panel cómodo y analítica de serie.",
+        "bullets": [
+          "Next.js 14 y App Router",
+          "Headless CMS",
+          "Animaciones y 3D"
+        ]
+      },
+      "performance": {
+        "title": "Performance marketing",
+        "description": "Lanzamos y gestionamos tráfico de pago: Google Ads, Meta, TikTok, Reels. Analítica end-to-end, A/B tests y reportes claros.",
+        "bullets": [
+          "PPC y paid social",
+          "Analítica end-to-end",
+          "A/B testing"
+        ]
+      },
+      "content": {
+        "title": "Contenido y creatividad",
+        "description": "Guiones, rodajes, edición, ilustración y motion. Feed, reels, landings y presentaciones — el mismo equipo.",
+        "bullets": [
+          "Reels y Shorts",
+          "3D y motion",
+          "Ilustración"
+        ]
+      },
+      "launch": {
+        "title": "Lanzamiento y soporte",
+        "description": "Despliegue en Vercel o cluster propio, monitoreo, SLA y evolución continua del producto en retainer.",
+        "bullets": [
+          "CI/CD en Vercel",
+          "Monitoreo y SLA",
+          "Retainer 20+ h/mes"
+        ]
+      }
+    }
+  },
+  "process": {
+    "badge": "Cómo trabajamos",
+    "title": "Un proceso transparente en 4 pasos",
+    "subtitle": "Cada etapa con entregables y plazos claros. Nada depende de la inspiración — solo del plan.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "duration": "1 semana",
+        "description": "Investigamos mercado, competencia, ICP y audiencia. Definimos la oferta, los mensajes clave y el customer journey.",
+        "deliverables": [
+          "Brief",
+          "Mapa de mensajes",
+          "Tone of voice"
+        ]
+      },
+      "strategy": {
+        "title": "Strategy & Design",
+        "duration": "2–3 semanas",
+        "description": "Arquitectura de información, prototipos, design system. Acordamos estructura y visual en Figma antes de empezar a programar.",
+        "deliverables": [
+          "Wireframes",
+          "UI kit",
+          "Diseños hi-fi"
+        ]
+      },
+      "engineering": {
+        "title": "Engineering",
+        "duration": "2–3 semanas",
+        "description": "Desarrollo en Next.js con CMS y analítica. Animaciones, SEO, formularios, integraciones y QA en 5 dispositivos.",
+        "deliverables": [
+          "Next.js + CMS",
+          "Lighthouse 95+",
+          "Analítica"
+        ]
+      },
+      "launch": {
+        "title": "Launch & Growth",
+        "duration": "+ retainer",
+        "description": "Despliegue en Vercel, monitoreo, A/B tests y crecimiento continuo en un retainer de 20+ horas al mes.",
+        "deliverables": [
+          "Lanzamiento",
+          "A/B tests",
+          "Soporte"
+        ]
+      }
+    }
+  },
+  "cases": {
+    "badge": "Trabajos seleccionados",
+    "title": "Casos a los que la gente se refiere",
+    "subtitle": "No portafolio por portafolio — proyectos con resultados medibles para el negocio.",
+    "items": {
+      "lumen": {
+        "industry": "SaaS · B2B",
+        "title": "Relanzamiento de un SaaS de analítica para equipos de producto",
+        "result": "Sitio + design system + landings de tráfico de pago en 6 semanas",
+        "metricLabels": [
+          "Conversión a demo",
+          "Ticket medio",
+          "Tiempo en página"
+        ]
+      },
+      "atlas": {
+        "industry": "Fintech",
+        "title": "Design system y sitio para un neobanco para emprendedores",
+        "result": "Branding y frontend en Next.js con tema oscuro y hero 3D",
+        "metricLabels": [
+          "Solicitudes diarias",
+          "Lighthouse",
+          "NPS de la landing"
+        ]
+      },
+      "north": {
+        "industry": "EdTech",
+        "title": "Plataforma de cursos online: del posicionamiento al lanzamiento",
+        "result": "Marca, landing, app y autofunnel con email y Telegram",
+        "metricLabels": [
+          "CR a compra",
+          "CAC",
+          "Estudiantes / mes"
+        ]
+      },
+      "orbit": {
+        "industry": "Movilidad",
+        "title": "Marca y producto para un car-sharing premium",
+        "result": "Identidad, app móvil y campaña de medios en la capital",
+        "metricLabels": [
+          "Instalaciones",
+          "Retention D30",
+          "Brand awareness"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "items": {
+      "projects": {
+        "label": "Proyectos lanzados",
+        "description": "desde landings hasta productos completos y plataformas SaaS"
+      },
+      "conversion": {
+        "label": "Crecimiento medio de la conversión",
+        "description": "tras el rediseño y el lanzamiento de tráfico de pago"
+      },
+      "rating": {
+        "label": "Valoración media de los clientes",
+        "description": "en 90+ reseñas independientes y encuestas post-lanzamiento"
+      },
+      "speed": {
+        "label": "Tiempo medio de lanzamiento",
+        "suffix": " semanas",
+        "description": "del primer kickoff a la publicación del sitio en producción"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Lo que dicen los clientes",
+    "title": "La confianza importa más que un portafolio bonito",
+    "subtitle": "No son «reseñas para la web» — son palabras reales de CEOs, PMs y founders.",
+    "items": {
+      "alina": {
+        "quote": "NOVA construyó nuestro sitio y design system desde cero en 5 semanas. La conversión a demo se triplicó y el equipo sigue mejorando el producto cada semana.",
+        "role": "CEO"
+      },
+      "mikhail": {
+        "quote": "El equipo de diseño más fuerte con el que hemos trabajado. Llegan con hipótesis, no piden brief. Eso cambia la calidad del resultado.",
+        "role": "CPO"
+      },
+      "darya": {
+        "quote": "En medio año pasamos de una startup sin web a un producto con lista de espera. NOVA cubre estrategia, creatividad y métricas — sin aprobaciones interminables.",
+        "role": "Founder"
+      },
+      "ivan": {
+        "quote": "Muy fuertes técnicamente. Integraciones complejas, código limpio, documentación clara y cero relleno en la comunicación. Así debe lucir un estudio en 2025.",
+        "role": "CTO"
+      },
+      "viktoria": {
+        "quote": "Hicieron una landing para tráfico de pago y lanzamos campañas — recuperaron la inversión en los primeros 9 días. Nivel de ejecución serio.",
+        "role": "Head of Growth"
+      },
+      "artem": {
+        "quote": "Un equipo cálido y a la vez muy organizado. Llevan el proyecto como un producto: métricas, retros, iteraciones. Recomendado a todos los founders.",
+        "role": "Founder"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Precios y formatos",
+    "includedTitle": "Cada plan incluye",
+    "includedAll": [
+      "Sesión de estrategia",
+      "Design tokens y UI kit",
+      "Analítica y eventos",
+      "Handover con docs"
+    ],
+    "title": "Precios transparentes. Sin sorpresas.",
+    "subtitle": "Empezamos con un presupuesto claro. Si cambia el alcance, ajustamos antes — no el día del lanzamiento.",
+    "popular": "Popular",
+    "footerPrefix": "¿No encajó ningún formato?",
+    "footerLink": "Escríbenos",
+    "footerSuffix": "— preparamos una propuesta a medida.",
+    "tiers": {
+      "start": {
+        "name": "Start",
+        "description": "Una landing o página de producto para validar una hipótesis y empezar a vender rápido.",
+        "price": "desde 3.200 $",
+        "priceSuffix": "por proyecto",
+        "cta": "Lanzar landing",
+        "features": [
+          "Estrategia y oferta",
+          "Diseño hasta 6 pantallas",
+          "Desarrollo en Next.js",
+          "Analítica y métricas básicas",
+          "1 ronda de revisiones",
+          "Lanzamiento en 3 semanas"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "description": "Sitio de producto completo con design system, casos, blog e integraciones. La opción más elegida.",
+        "price": "desde 7.600 $",
+        "priceSuffix": "por proyecto",
+        "cta": "Pedir el sitio",
+        "features": [
+          "Estrategia y contenido",
+          "Design system en Figma",
+          "Hasta 14 páginas en Next.js",
+          "Headless CMS",
+          "Animaciones 3D y motion",
+          "SEO y analítica end-to-end",
+          "2 rondas de revisiones",
+          "Lanzamiento en 6 semanas"
+        ]
+      },
+      "studio": {
+        "name": "Studio",
+        "description": "Un equipo al mes: product designer, ingeniero y estratega. Ideal para evolucionar el producto continuamente.",
+        "price": "desde 13.200 $",
+        "priceSuffix": "al mes",
+        "cta": "Hablar de retainer",
+        "features": [
+          "Equipo de 3 especialistas",
+          "Hasta 60 horas a la semana",
+          "Sprints de 2 semanas",
+          "Diseño, desarrollo, analítica",
+          "Soporte e iteraciones de producto",
+          "SLA y canal prioritario",
+          "Mínimo 3 meses"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "Preguntas frecuentes",
+    "title": "Respondemos las dudas más comunes",
+    "subtitle": "Si tu pregunta no está aquí, escríbenos y volvemos con un análisis en un par de horas.",
+    "items": [
+      {
+        "q": "¿Cuánto cuesta un sitio llave en mano?",
+        "a": "Landing — desde 3.800 $. Sitio corporativo — desde 7.800 $. Plataforma SaaS con design system — desde 16.500 $. Mandamos un presupuesto exacto en 24 horas tras el brief."
+      },
+      {
+        "q": "¿Cuánto tarda el lanzamiento?",
+        "a": "Landing — 4 semanas, sitio multipágina — 6–7 semanas, plataforma SaaS — 8–12 semanas. Los plazos se fijan en contrato y atan los pagos a hitos."
+      },
+      {
+        "q": "¿Cómo trabajáis el proyecto?",
+        "a": "En sprints de 2 semanas. Tienes un canal dedicado en Telegram, un tablero en Linear y acceso a Figma. Una vez por semana — demo y retro."
+      },
+      {
+        "q": "¿Hay handoff y soporte tras el lanzamiento?",
+        "a": "Sí. Entregamos todo el código, el repositorio, el design system y la documentación. El soporte va por retainer desde 20 horas al mes o por scope."
+      },
+      {
+        "q": "¿Hacéis solo diseño o solo desarrollo?",
+        "a": "Sí, puedes contratar cualquier bloque por separado: branding, diseño de producto, desarrollo o soporte. La mayoría de clientes va por el ciclo completo."
+      },
+      {
+        "q": "¿De quién son los derechos del resultado?",
+        "a": "Todas las fuentes y los derechos de propiedad intelectual pasan al cliente tras el último pago. Está reflejado en el contrato."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Iniciar un nuevo proyecto",
+    "title": "Cuéntanos la tarea — montamos equipo y plan",
+    "subtitle": "Describe el proyecto y los objetivos; volvemos con un presupuesto preliminar y casos de tu nicho.",
+    "directLabel": "Contacto directo",
+    "badges": {
+      "response": "Respuesta en 4 horas",
+      "nda": "NDA bajo petición"
+    },
+    "benefits": [
+      "Respondemos en un día laborable",
+      "Auditoría gratuita de tus objetivos y métricas",
+      "Te proponemos el formato de colaboración óptimo"
+    ],
+    "nextSteps": [
+      {
+        "title": "Intro y brief",
+        "description": "Llamada de 30 minutos para alinear tarea, objetivos y restricciones."
+      },
+      {
+        "title": "Estimación y plan",
+        "description": "En 48 horas recibes presupuesto, hoja de ruta y equipo."
+      },
+      {
+        "title": "Arranque del sprint",
+        "description": "Firmamos contrato y arrancamos con sprints de dos semanas."
+      }
+    ],
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Ana",
+      "email": "Correo",
+      "emailPlaceholder": "ana@studio.com",
+      "company": "Empresa",
+      "companyPlaceholder": "NOVA Studio · opcional",
+      "budget": "Presupuesto",
+      "budgetOptions": [
+        "hasta 4.000 $",
+        "4.000 – 8.000 $",
+        "8.000 – 17.000 $",
+        "17.000 $+",
+        "Aún lo pienso"
+      ],
+      "message": "Cuéntanos sobre el proyecto",
+      "messagePlaceholder": "Objetivos, métricas actuales, plazos, referencias — todo lo que ayude a preparar la conversación.",
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando…",
+      "privacyPrefix": "Al enviar el formulario aceptas la",
+      "privacyLink": "política de privacidad",
+      "privacySuffix": "."
+    },
+    "validation": {
+      "name": "El nombre debe tener al menos 2 caracteres",
+      "emailRequired": "Introduce tu correo",
+      "emailFormat": "Ese correo parece incorrecto",
+      "messageMin": "Aunque sean unas frases — el contexto importa"
+    },
+    "success": {
+      "title": "Solicitud enviada",
+      "description": "¡Gracias! Te escribiremos al correo en el próximo día laborable. Mientras puedes echar un ojo a nuestros casos.",
+      "watchCases": "Ver casos",
+      "sendAnother": "Enviar otra"
+    },
+    "toasts": {
+      "error": "No pudimos enviar la solicitud. Inténtalo de nuevo.",
+      "received": "Solicitud recibida. El correo no está configurado — guardamos los datos en el log.",
+      "success": "Solicitud enviada. ¡Pronto te escribimos!",
+      "network": "Algo salió mal. Comprueba la conexión e inténtalo de nuevo.",
+      "copied": "Correo copiado",
+      "copyFailed": "No se pudo copiar. Inténtalo manualmente."
+    },
+    "copyEmail": "Copiar"
+  },
+  "footer": {
+    "ctaKicker": "¿Listos para empezar?",
+    "ctaTitle": "Cuéntanos la tarea — enviamos presupuesto y plan en 24 horas.",
+    "studio": "Estudio",
+    "info": "Información",
+    "social": "Redes",
+    "newsletter": {
+      "title": "NOVA Journal — una vez al mes",
+      "subtitle": "Casos, retros y notas de diseño de producto. Sin spam.",
+      "placeholder": "you@company.com",
+      "cta": "Suscribirme",
+      "success": "Listo, hablamos pronto",
+      "done": "Suscripción confirmada",
+      "invalid": "Revisa tu correo"
+    },
+    "studioLinks": {
+      "services": "Servicios",
+      "process": "Proceso",
+      "cases": "Trabajos",
+      "pricing": "Precios"
+    },
+    "infoLinks": {
+      "faq": "FAQ",
+      "testimonials": "Reseñas",
+      "contact": "Contacto",
+      "privacy": "Privacidad"
+    }
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Página no encontrada",
+    "subtitle": "Parece que esta página se fue a una retro. Vuelve al inicio — ahí está lo bueno.",
+    "back": "Volver al inicio",
+    "discoverCases": "Ver casos"
+  },
+  "work": {
+    "badge": "Caso",
+    "title": "Casos de estudio destacados",
+    "subtitle": "Una mirada a fondo a la estrategia, el diseño y la ingeniería — seis lanzamientos recientes desde el posicionamiento hasta el lanzamiento público.",
+    "allCases": "Todos los casos",
+    "backToWork": "Volver a casos",
+    "meta": {
+      "client": "Cliente",
+      "year": "Año",
+      "duration": "Duración",
+      "team": "Equipo",
+      "services": "Servicios",
+      "link": "Sitio en vivo",
+      "industry": "Industria"
+    },
+    "sections": {
+      "context": "Contexto",
+      "challenge": "Reto",
+      "approach": "Enfoque",
+      "results": "Resultados",
+      "deliverables": "Entregables",
+      "retrospective": "Retrospectiva",
+      "gallery": "Galería",
+      "nextCase": "Siguiente caso"
+    },
+    "items": {
+      "lumen": {
+        "industry": "SaaS B2B · analítica",
+        "title": "Relanzamos Lumen — un SaaS para equipos de producto",
+        "summary": "Marca, sistema de diseño, sitio de marketing y landings de tráfico pagado — entregado en 6 semanas.",
+        "context": "Lumen había superado su posicionamiento inicial y se había convertido en una herramienta para equipos de producto, pero el sitio se quedaba atrás. La conversión a demo llevaba estancada desde otoño.",
+        "challenge": "Replantear la oferta para una audiencia senior — Head of Product, Growth, Data — y poner el valor central al frente: ver tus métricas de producto en minutos, no en horas.",
+        "approach": "Mapeamos 4 ICPs y un mapa de mensajes. En paralelo, entregamos un sistema de diseño en Figma con tokens, prototipamos 12 pantallas y construimos un sitio de marketing en Next.js 14 con CMS y analítica. Performance arrancó en la semana 4.",
+        "results": "La conversión a demo creció 3.2×, ticket promedio +34%, tiempo en página 3:42. El equipo de Lumen ahora actualiza contenido y publica nuevas landings sin nosotros.",
+        "retrospective": "El gran riesgo — correr marketing en paralelo al build — se gestionó con dailys y un Linear board compartido. La próxima vez añadiremos 7 días tranquilos tras el lanzamiento: el tráfico pagado en día 1 hizo ruidosos los datos iniciales.",
+        "deliverables": [
+          "Estrategia de marca y mapa de mensajes",
+          "Sistema de diseño en Figma (180+ componentes)",
+          "30+ ilustraciones de producto",
+          "Sitio de marketing en Next.js + CMS",
+          "Landings de tráfico pagado",
+          "Lanzamiento de email + Telegram"
+        ],
+        "gallery": [
+          {
+            "label": "Hero · home",
+            "tone": "primary"
+          },
+          {
+            "label": "Matriz de precios",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Modal de onboarding",
+            "tone": "cyan"
+          },
+          {
+            "label": "Dashboard móvil",
+            "tone": "amber"
+          }
+        ]
+      },
+      "atlas": {
+        "industry": "Fintech · neobanco",
+        "title": "Sistema de diseño y sitio para Atlas, un neobanco",
+        "summary": "Marca, frontend en Next.js y tema oscuro con un héroe 3D — 8 semanas hasta el lanzamiento público.",
+        "context": "Atlas se lanzaba como banco para emprendedores: API abierta, tarjetas instantáneas, gastos por proyecto. El lanzamiento necesitaba una marca reconocible y un sitio que explicara el valor en 5 segundos.",
+        "challenge": "No existía marca visual — solo un nombre y un prototipo funcional. Plazo apretado, integraciones complejas con el producto y limitaciones regulatorias en la copy.",
+        "approach": "Identidad de marca con paleta oscura y acento ácido, más un documento de tono de voz. El sitio se entregó con tema oscuro, héroe Three.js, módulo de precios interactivo y calculadora de gastos.",
+        "results": "Solicitudes diarias creciendo 4.2× sobre el landing anterior. Lighthouse 98 / 100 en producción. NPS del landing 72. Atlas pasó de waitlist a open beta en 30 días.",
+        "retrospective": "Por defecto oscuro funcionó — pero subió la barra de contraste. Rehicimos la mitad de las ilustraciones tras la primera ronda de QA. A futuro, los productos oscuros tienen una iteración de QA dedicada al contraste antes del release.",
+        "deliverables": [
+          "Brandbook e identidad",
+          "Sistema de diseño con tema oscuro",
+          "Sitio en Next.js 14 + CMS",
+          "Escena de héroe en Three.js",
+          "Flujos de onboarding y precios"
+        ],
+        "gallery": [
+          {
+            "label": "Hero · escena 3D",
+            "tone": "primary"
+          },
+          {
+            "label": "Niveles de precios",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Calculadora",
+            "tone": "cyan"
+          },
+          {
+            "label": "Tarjetas móviles",
+            "tone": "amber"
+          }
+        ]
+      },
+      "north": {
+        "industry": "EdTech · cursos online",
+        "title": "North: plataforma de cursos online del posicionamiento al lanzamiento",
+        "summary": "Marca, landing, app y un autofunnel — desde el kickoff hasta las primeras ventas en 10 semanas.",
+        "context": "North entraba al saturado mercado de cursos online con la ambición de no ser «otra escuela más». Posicionamiento, producto, marketing y un autofunnel debían lanzar juntos.",
+        "challenge": "Producto sólido, sin marca reconocible. Equipo de dos founders y dos expertos, plazos agresivos, presupuesto fijo de lanzamiento.",
+        "approach": "Brief de ICP, 3 direcciones estratégicas, elegimos «aprender desde el oficio» como ángulo. Sistema de marca, landing y app en paralelo. El autofunnel email + Telegram entró en producción el mismo día del lanzamiento.",
+        "results": "CR de compra 9.4%, CAC bajó 41%, 1.800+ estudiantes activos al mes 3. El equipo ahora gestiona el contenido en CMS y lanza nuevas cohortes por su cuenta.",
+        "retrospective": "El plazo apretado obligó a recortar — blog y comunidad pasaron a un retainer. Mereció la pena: el lanzamiento se sintió enfocado, no apresurado.",
+        "deliverables": [
+          "Estrategia e identidad de marca",
+          "Landing en Next.js",
+          "Panel del estudiante",
+          "Autofunnel email + Telegram",
+          "Guías de contenido"
+        ],
+        "gallery": [
+          {
+            "label": "Hero del landing",
+            "tone": "primary"
+          },
+          {
+            "label": "Catálogo de cursos",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Panel estudiante",
+            "tone": "cyan"
+          },
+          {
+            "label": "Email onboarding",
+            "tone": "amber"
+          }
+        ]
+      },
+      "orbit": {
+        "industry": "Mobility · car-sharing",
+        "title": "Marca y producto para Orbit, car-sharing premium",
+        "summary": "Identidad, app móvil y campaña outdoor + media en la capital — 12 semanas de inicio a fin.",
+        "context": "Orbit entraba al segmento premium de car-sharing con una flota de 200 vehículos. Necesitaban una marca que no leyera «mass market» y un producto que generara confianza en el primer toque.",
+        "challenge": "Premium en un mercado donde el 90% de los jugadores dicen «barato y rápido». Tuvimos que comunicar la experiencia de alquiler en 30 segundos y reforzar la impresión más allá de la app.",
+        "approach": "Marca con tono cósmico, app con flujos ultra cortos (abrir, reservar, conducir) y una campaña media de lanzamiento en Moscú y San Petersburgo.",
+        "results": "120K instalaciones en 2 meses, retención D30 38%, awareness de marca en la capital +62%.",
+        "retrospective": "Subestimamos el ASO al lanzamiento — la app se enterró en la tienda. Sumamos un partner de ASO en retainer y entramos al top-10 de la categoría en 3 semanas.",
+        "deliverables": [
+          "Estrategia e identidad de marca",
+          "App iOS / Android",
+          "Landing de marketing",
+          "Campaña outdoor + display",
+          "Plantillas sociales"
+        ],
+        "gallery": [
+          {
+            "label": "Marca y paleta",
+            "tone": "primary"
+          },
+          {
+            "label": "App · reserva",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Mapa de la flota",
+            "tone": "cyan"
+          },
+          {
+            "label": "Campaña outdoor",
+            "tone": "amber"
+          }
+        ]
+      }
+    }
+  },
+  "journal": {
+    "badge": "Journal",
+    "title": "Notas desde el estudio",
+    "subtitle": "Cómo entregamos, diseñamos y pensamos — sin relleno.",
+    "all": "Todos los posts",
+    "back": "Volver al journal",
+    "backToJournal": "Volver al journal",
+    "contents": "En esta página",
+    "minRead": "min de lectura",
+    "readingTime": "{minutes} min de lectura",
+    "publishedOn": "Publicado",
+    "readMore": "Leer post",
+    "morePosts": "Más posts",
+    "nextPost": "Siguiente artículo",
+    "posts": {
+      "process": {
+        "title": "Cómo entregamos un sitio SaaS en seis semanas",
+        "excerpt": "Seis semanas del kickoff al live, con estrategia, marca e ingeniería. No es magia — es un proceso claro.",
+        "intro": "La pregunta que más nos hacen es por qué entregamos en 6 semanas donde otros estudios tardan 4 meses. Respuesta corta: disciplina y un solo equipo. Larga, abajo.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Semana 0 · kickoff"
+          },
+          {
+            "type": "p",
+            "text": "Antes de la semana 1 hacemos un kickoff corto: una sesión de 90 minutos con el equipo del cliente, métricas de negocio, un único product owner del lado del cliente, e ICP cerrado. Sin esto, la semana 1 se convierte en una conversación abierta sobre gusto."
+          },
+          {
+            "type": "h2",
+            "text": "Semanas 1–2 · estrategia y arquitectura"
+          },
+          {
+            "type": "p",
+            "text": "En paralelo: investigación de mercado e ICP, voz de marca, arquitectura de información. La diseñadora arranca tokens y grilla, el ingeniero monta el repo y el CI base. Demo cada viernes."
+          },
+          {
+            "type": "h2",
+            "text": "Semanas 3–4 · diseño y contenido"
+          },
+          {
+            "type": "p",
+            "text": "Pantallas en Figma, validación contra escenarios ICP, copy en pareja con el cliente. No esperamos a que «todo esté aprobado» — los bloques piloto se mandan a ingeniería."
+          },
+          {
+            "type": "h2",
+            "text": "Semanas 5–6 · ingeniería y lanzamiento"
+          },
+          {
+            "type": "p",
+            "text": "Animaciones, formularios, CMS, analítica. En la semana 5 el sitio está en staging; corremos una beta con 20–30 personas del ICP y recogemos feedback antes del release público."
+          },
+          {
+            "type": "h2",
+            "text": "Qué rompe el proceso"
+          },
+          {
+            "type": "p",
+            "text": "Más de dos puntos de responsabilidad del lado del cliente, exigir «aprobación final antes de empezar ingeniería», un cambio de scope en la semana 5. Cualquiera de estos y los plazos se mueven."
+          }
+        ]
+      },
+      "design-tokens": {
+        "title": "Design tokens que escalan",
+        "excerpt": "Qué son realmente los design tokens, por qué te salvan en el quinto proyecto y cómo los entregamos con Figma + Tailwind.",
+        "intro": "Los design tokens no son «una tabla de colores y sombras». Son un contrato entre diseño e ingeniería. Sin ese contrato, te quedan noches discutiendo códigos hex.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Niveles de tokens"
+          },
+          {
+            "type": "p",
+            "text": "Dividimos los tokens en tres niveles. Primitive — valores crudos (#5159ff, 16px). Semantic — intención (color.brand, space.lg). Component — reglas locales (button.primary.bg). Sin la jerarquía, los tokens se vuelven un cajón de sastre."
+          },
+          {
+            "type": "h2",
+            "text": "Dónde viven los tokens"
+          },
+          {
+            "type": "p",
+            "text": "La fuente de verdad son las Figma Variables. Exportamos JSON desde Figma y, vía style-dictionary, lo transformamos en CSS custom properties. Tailwind los toma desde config — el equipo de frontend usa clases t-shirt como `text-foreground` y nunca piensa en hex."
+          },
+          {
+            "type": "h2",
+            "text": "Modo oscuro y a11y"
+          },
+          {
+            "type": "p",
+            "text": "El modo oscuro no es «invertir valores», es un set separado de tokens semánticos. Verificamos contraste en Figma y corremos axe-core en CI. AA es requisito firme, no «si llega»."
+          },
+          {
+            "type": "h2",
+            "text": "Ownership"
+          },
+          {
+            "type": "p",
+            "text": "Un único owner humano para tokens — normalmente la diseñadora líder. Los cambios entran como PR con review obligatorio de ingeniería. Cuesta 10 minutos a la semana y ahorra semanas de caos a escala."
+          }
+        ]
+      },
+      "analytics": {
+        "title": "Analítica que de verdad mueve decisiones",
+        "excerpt": "Por qué cada sitio de producto necesita su propio funnel, los 6 eventos que cubren el 80% de los insights y por qué no creemos en la «conversión global».",
+        "intro": "Un sitio sin analítica es una tienda donde nadie cuenta a los clientes. Así montamos la analítica de cada landing y por qué la conversión global nunca nos convence.",
+        "blocks": [
+          { "type": "h2", "text": "Los 6 eventos que siempre medimos" },
+          { "type": "p", "text": "Hero CTA, sticky CTA, formulario de contacto, scroll al 80%, clic en caso de estudio, clic en pricing. Con eso basta para ver el problema sin ahogarse en datos. Lo demás se añade solo cuando una hipótesis lo exige." },
+          { "type": "h2", "text": "Por qué la conversión global miente" },
+          { "type": "p", "text": "La conversión global esconde la bifurcación más importante: ¿el usuario llegó por un canal ICP o es tráfico casual? Siempre dividimos el funnel en al menos 3 fuentes y las evaluamos por separado. Esto salva de optimizar lo que nunca estuvo roto." },
+          { "type": "h2", "text": "Dónde viven los eventos" },
+          { "type": "p", "text": "GA4 y Plausible para tráfico y atribución. PostHog para el funnel de producto y replays de sesión. En las UTM dejamos campaña y creatividad — sin eso, dos meses después nadie sabe qué funcionó." },
+          { "type": "h2", "text": "Qué hacer con los números" },
+          { "type": "p", "text": "Cada dos semanas revisamos el dashboard con el cliente: una hipótesis, una métrica, una decisión. Si hay más de dos hipótesis sobre la mesa, ya no es analítica, es un ritual." }
+        ]
+      },
+      "design-review": {
+        "title": "Design review sin dolor: un proceso que no mata la velocidad",
+        "excerpt": "Cómo organizamos el design review para que el equipo no pierda días en correcciones y el cliente vea progreso cada viernes.",
+        "intro": "Cualquier diseñador lo sabe: una revisión puede costar dos horas o dos semanas — depende del formato. Llegamos a un esquema simple tras 4 proyectos y ahora lo aplicamos incluso en equipos grandes.",
+        "blocks": [
+          { "type": "h2", "text": "Un canal, un tablero" },
+          { "type": "p", "text": "Todas las correcciones viven en comentarios de Figma con etiqueta de prioridad (P0/P1/P2). Sin Slacks paralelos ni hojas de cálculo. Si la corrección no está en Figma, no existe. Eso ya elimina el 80% de pérdidas de contexto." },
+          { "type": "h2", "text": "Sync una vez por semana, async todos los días" },
+          { "type": "p", "text": "Una llamada síncrona de 30 minutos los viernes, el resto son comentarios y Looms. El diseñador deja de vivir en reuniones y vuelve a diseñar." },
+          { "type": "h2", "text": "La regla de las dos rondas" },
+          { "type": "p", "text": "Máximo 2 rondas de correcciones por pantalla. Si vamos a una tercera, la brief o los objetivos están rotos. Volvemos un nivel arriba en vez de mover píxeles." },
+          { "type": "h2", "text": "Tonos en lugar de gustos" },
+          { "type": "p", "text": "En vez de «no me gusta» pedimos al cliente que indique el tono: más premium, más técnico, más cálido. Eso convierte el gusto en una dirección sobre la que se puede iterar." }
+        ]
+      },
+      "lumen-retro": {
+        "title": "Retro de Lumen: lo que aprendimos en 6 semanas",
+        "excerpt": "La conversión a demo creció 3.2× — pero no fue por un diseño «bonito». Aquí están las razones reales.",
+        "intro": "Pasaron 8 semanas desde el lanzamiento de Lumen — tiempo suficiente para mirar números y sacar conclusiones honestas. Compartimos qué funcionó, qué no y qué cambiamos en el próximo proyecto.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Lo que funcionó"
+          },
+          {
+            "type": "p",
+            "text": "El mayor lift de conversión no vino de la home, sino de las landings por rol — páginas separadas para PM, Growth y Data. Cuando el ICP ve su contexto en 5 segundos, el formulario de demo se llena 4× más."
+          },
+          {
+            "type": "h2",
+            "text": "Lo que no funcionó al inicio"
+          },
+          {
+            "type": "p",
+            "text": "La calculadora de pricing en el hero. La idea era un ROI interactivo; en la práctica, la gente se perdía al tercer slider. Movimos la calculadora a la página de pricing y dejamos en el hero tres planes limpios."
+          },
+          {
+            "type": "h2",
+            "text": "Dónde está el 80% del impacto"
+          },
+          {
+            "type": "p",
+            "text": "El 80% del crecimiento viene de dos pantallas: hero y social proof. Si tienes 5 horas para optimizar tu sitio, gástalas ahí. No rediseñes la FAQ si tu hero no comunica el valor en 5 segundos."
+          },
+          {
+            "type": "h2",
+            "text": "Qué cambiamos en el próximo proyecto"
+          },
+          {
+            "type": "p",
+            "text": "Antes poníamos el social proof cerca del final — la gente llegaba al final y confiaba. Ahora subimos los logos y una cita potente justo bajo el hero. El próximo caso será el experimento."
+          }
+        ]
+      }
+    }
+  },
+  "command": {
+    "placeholder": "Buscar, secciones, casos…",
+    "title": "Menú de comandos",
+    "sections": {
+      "navigation": "Navegación",
+      "cases": "Casos",
+      "journal": "Journal",
+      "actions": "Acciones"
+    },
+    "actions": {
+      "toggleTheme": "Cambiar tema",
+      "scrollTop": "Volver arriba",
+      "contact": "Contactar"
+    },
+    "empty": "Sin resultados. Prueba otra palabra.",
+    "hint": "Abrir menú",
+    "open": "Abrir menú de comandos",
+    "openShort": "Buscar",
+    "shortcut": "⌘ K",
+    "close": "Cerrar"
+  },
+  "lighthouse": {
+    "label": "Live Lighthouse",
+    "perf": "Perf",
+    "seo": "SEO",
+    "a11y": "A11y",
+    "bp": "BP",
+    "error": "puntuación temporalmente no disponible",
+    "loading": "sincronizando puntuaciones…",
+    "tooltip": "Puntuaciones reales de Lighthouse vía PageSpeed Insights"
+  }
+}

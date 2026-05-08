@@ -1,0 +1,875 @@
+{
+  "site": {
+    "tagline": "Full-cycle digital studio",
+    "description": "We build product websites, branding, and design systems that turn traffic into revenue. From strategy to launch in 4–8 weeks.",
+    "address": "Lisbon · Berlin · Tbilisi",
+    "rights": "All rights reserved.",
+    "madeBy": "Built with Next.js · Tailwind · Framer Motion",
+    "portfolioNote": "Portfolio project — fictional agency",
+    "author": "Designed & built by Timur Valerievich",
+    "selectLanguage": "Interface language"
+  },
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "cases": "Work",
+    "work": "Case studies",
+    "journal": "Journal",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "sectionIndicator": {
+    "top": "Home",
+    "why": "Why a studio",
+    "services": "Services",
+    "process": "Process",
+    "cases": "Work",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "cta": {
+    "primary": "Start a project",
+    "secondary": "View case studies",
+    "discuss": "Get in touch"
+  },
+  "hero": {
+    "badge": "Taking 2 projects in December",
+    "rating": "4.9 / 5 · 90+ reviews",
+    "title": "Design and engineering for SaaS websites that convert.",
+    "highlight": "convert",
+    "subtitle": "NOVA is a product studio for B2B SaaS and fintech. Strategy, branding, product design, and Next.js engineering — shipped in 4–8 weeks.",
+    "subtitlePrefix": "NOVA is a product studio for B2B SaaS and fintech.",
+    "rotatingWords": ["Strategy", "Branding", "Design", "Engineering"],
+    "subtitleSuffix": "and launch on Next.js — in 4–8 weeks.",
+    "socialPrefix": "Already trusted by",
+    "socialBold": "40+ companies",
+    "socialSuffix": "— from startups to Series B",
+    "scrollHint": "Scroll to explore",
+    "visualUrl": "app.lumen.io / dashboard",
+    "visualVersion": "v2.4",
+    "visualConversion": "Conversion",
+    "visualLighthouse": "Lighthouse",
+    "visualRevenue": "Revenue · last 30d",
+    "visualOnline": "+1,240 online right now",
+    "visualLive": "LIVE"
+  },
+  "logos": {
+    "label": "Trusted by teams who care about their product",
+    "availability": "2 slots open in December",
+    "trust": [
+      { "value": "30+", "label": "products launched" },
+      { "value": "98", "label": "client NPS" },
+      { "value": "6 wks", "label": "average MVP cycle" }
+    ]
+  },
+  "problemSolution": {
+    "badge": "Why a studio, not a freelancer",
+    "title": "A website ≠ a Figma file. It's a sales system.",
+    "subtitle": "We turn strategy into product and product into revenue. We own the metrics — not just the pixels.",
+    "problemKicker": "The familiar story",
+    "problemHeading": "If you've ordered a site without an agency",
+    "solutionKicker": "How we do it",
+    "solutionHeading": "The NOVA approach: product-led, metric-driven, no fluff",
+    "problems": [
+      "The site looks like every competitor and fails to explain value in 5 seconds",
+      "Vendors drag for months and miss every deadline",
+      "Nobody owns the metrics — only the pretty visuals",
+      "Every change becomes a week-long quest"
+    ],
+    "solutions": [
+      "A brand and offer that's impossible to confuse with the competition",
+      "Launch in 4–8 weeks with a transparent plan and 2-week sprints",
+      "A product team focused on conversion and product metrics",
+      "A design system and CMS so your team can ship updates themselves"
+    ]
+  },
+  "services": {
+    "badge": "Studio services",
+    "title": "Full-cycle — from strategy to retainer",
+    "subtitle": "A team of strategists, designers, engineers, and product marketers. Take the full project or just the block you need.",
+    "popular": "Popular",
+    "items": {
+      "branding": {
+        "title": "Branding & identity",
+        "description": "Logo, design system, guidelines, and every asset — a single recognizable language that sells before the first product touch.",
+        "bullets": [
+          "Strategy & positioning",
+          "Logo & tokens",
+          "Brand book"
+        ]
+      },
+      "product": {
+        "title": "Product design",
+        "description": "UX/UI for SaaS, web apps, and mobile products. Prototypes, usability testing, and component design systems in Figma.",
+        "bullets": [
+          "UX audit & metrics",
+          "UI & motion",
+          "Design System in Figma"
+        ]
+      },
+      "web": {
+        "title": "Web engineering",
+        "description": "Next.js, TypeScript, headless CMS. Clean code, 95+ Lighthouse, a comfortable admin, and analytics out of the box.",
+        "bullets": [
+          "Next.js 14 & App Router",
+          "Headless CMS",
+          "Animations & 3D"
+        ]
+      },
+      "performance": {
+        "title": "Performance marketing",
+        "description": "Launch and manage paid traffic: Google Ads, Meta, TikTok, Reels. End-to-end analytics, A/B tests, and clear reporting.",
+        "bullets": [
+          "PPC & paid social",
+          "End-to-end analytics",
+          "A/B testing"
+        ]
+      },
+      "content": {
+        "title": "Content & creative",
+        "description": "Scripts, shoots, editing, illustration, and motion. Feed, reels, landings, and decks — all by the same team.",
+        "bullets": [
+          "Reels & Shorts",
+          "3D & motion",
+          "Illustration"
+        ]
+      },
+      "launch": {
+        "title": "Launch & support",
+        "description": "Deploy on Vercel or your own cluster, monitoring, SLA, and ongoing product evolution on retainer.",
+        "bullets": [
+          "CI/CD on Vercel",
+          "Monitoring & SLA",
+          "Retainer 20+ h/mo"
+        ]
+      }
+    }
+  },
+  "process": {
+    "badge": "How we work",
+    "title": "A transparent 4-step process",
+    "subtitle": "Each stage with clear deliverables and timing. Nothing depends on inspiration — only on the plan.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "duration": "1 week",
+        "description": "Research market, competitors, ICP, and audience. We craft the offer, key messages, and the customer journey.",
+        "deliverables": [
+          "Brief",
+          "Message map",
+          "Tone of voice"
+        ]
+      },
+      "strategy": {
+        "title": "Strategy & Design",
+        "duration": "2–3 weeks",
+        "description": "Information architecture, prototypes, design system. We agree on structure and visuals in Figma before engineering kicks off.",
+        "deliverables": [
+          "Wireframes",
+          "UI kit",
+          "Hi-fi designs"
+        ]
+      },
+      "engineering": {
+        "title": "Engineering",
+        "duration": "2–3 weeks",
+        "description": "Engineering on Next.js with CMS and analytics. Animations, SEO, forms, integrations, and QA on 5 devices.",
+        "deliverables": [
+          "Next.js + CMS",
+          "Lighthouse 95+",
+          "Analytics"
+        ]
+      },
+      "launch": {
+        "title": "Launch & Growth",
+        "duration": "+ retainer",
+        "description": "Deploy on Vercel, monitoring, A/B tests on landings, and ongoing growth on a 20+ hour/month retainer.",
+        "deliverables": [
+          "Launch",
+          "A/B tests",
+          "Support"
+        ]
+      }
+    }
+  },
+  "cases": {
+    "badge": "Selected work",
+    "title": "Case studies people reference",
+    "subtitle": "Not portfolio for the sake of portfolio — projects with measurable business outcomes.",
+    "items": {
+      "lumen": {
+        "industry": "SaaS · B2B",
+        "title": "Relaunched a SaaS for product analytics teams",
+        "result": "Site + design system + paid traffic landings in 6 weeks",
+        "metricLabels": [
+          "Demo conversion",
+          "Average deal",
+          "Time on page"
+        ]
+      },
+      "atlas": {
+        "industry": "Fintech",
+        "title": "Design system and site for a neobank for entrepreneurs",
+        "result": "Branding and Next.js frontend with dark theme and 3D hero",
+        "metricLabels": [
+          "Daily applications",
+          "Lighthouse",
+          "Landing NPS"
+        ]
+      },
+      "north": {
+        "industry": "EdTech",
+        "title": "Online courses platform: from positioning to launch",
+        "result": "Brand, landing, app, and an email + Telegram autofunnel",
+        "metricLabels": [
+          "Purchase CR",
+          "CAC",
+          "Students / month"
+        ]
+      },
+      "orbit": {
+        "industry": "Mobility",
+        "title": "Brand and product for a premium car-sharing service",
+        "result": "Identity, mobile app, and a media campaign in the capital",
+        "metricLabels": [
+          "Installs",
+          "Retention D30",
+          "Brand awareness"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "items": {
+      "projects": {
+        "label": "Shipped projects",
+        "description": "from landings to full products and SaaS platforms"
+      },
+      "conversion": {
+        "label": "Average conversion lift",
+        "description": "after redesign and paid traffic launch"
+      },
+      "rating": {
+        "label": "Average client rating",
+        "description": "across 90+ independent reviews and post-launch surveys"
+      },
+      "speed": {
+        "label": "Average time to launch",
+        "suffix": " weeks",
+        "description": "from kickoff call to live production site"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "What clients say",
+    "title": "Trust beats a pretty portfolio",
+    "subtitle": "These aren't \"reviews for the website\" — they're real words from CEOs, PMs, and founders.",
+    "items": {
+      "alina": {
+        "quote": "NOVA built our site and design system from scratch in 5 weeks. Demo conversion grew 3× and the team keeps shipping improvements every week.",
+        "role": "CEO"
+      },
+      "mikhail": {
+        "quote": "The strongest design team we've worked with. They show up with hypotheses, not asking for a brief. That changes the quality of the result.",
+        "role": "CPO"
+      },
+      "darya": {
+        "quote": "In half a year we went from a startup with no site to a product with a waitlist. NOVA owns strategy, creative, and metrics — without endless approvals.",
+        "role": "Founder"
+      },
+      "ivan": {
+        "quote": "Technically very strong. Complex integrations, clean code, clear documentation, and zero fluff in communication. This is what a 2025 studio should look like.",
+        "role": "CTO"
+      },
+      "viktoria": {
+        "quote": "They built a paid-traffic landing and launched campaigns — paid back the work in the first 9 days. Serious execution.",
+        "role": "Head of Growth"
+      },
+      "artem": {
+        "quote": "A warm and tight-knit team. They run the project like a product: metrics, retros, iterations. Recommended for every founder.",
+        "role": "Founder"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Pricing & formats",
+    "includedTitle": "Every plan includes",
+    "includedAll": [
+      "Strategy session",
+      "Design tokens & UI kit",
+      "Analytics & events",
+      "Handover with docs"
+    ],
+    "title": "Transparent pricing. No surprises.",
+    "subtitle": "We start with a clear estimate. If scope changes — we update the estimate ahead of time, not on launch day.",
+    "popular": "Popular",
+    "footerPrefix": "Didn't find the right format?",
+    "footerLink": "Get in touch",
+    "footerSuffix": "— we'll put together a custom proposal for you.",
+    "tiers": {
+      "start": {
+        "name": "Start",
+        "description": "A single landing or product page to validate a hypothesis quickly and start selling.",
+        "price": "from $3,200",
+        "priceSuffix": "per project",
+        "cta": "Launch a landing",
+        "features": [
+          "Strategy & offer",
+          "Design up to 6 screens",
+          "Engineering on Next.js",
+          "Basic analytics & metrics",
+          "1 round of revisions",
+          "Launch in 3 weeks"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "description": "A full product website with design system, case studies, blog, and integrations. Most popular choice.",
+        "price": "from $7,600",
+        "priceSuffix": "per project",
+        "cta": "Order a website",
+        "features": [
+          "Strategy & content",
+          "Design system in Figma",
+          "Up to 14 pages on Next.js",
+          "Headless CMS",
+          "3D and motion animations",
+          "SEO and end-to-end analytics",
+          "2 rounds of revisions",
+          "Launch in 6 weeks"
+        ]
+      },
+      "studio": {
+        "name": "Studio",
+        "description": "A team for the month: product designer, engineer, and strategist. Ideal for ongoing product work.",
+        "price": "from $13,200",
+        "priceSuffix": "per month",
+        "cta": "Discuss retainer",
+        "features": [
+          "Team of 3 specialists",
+          "Up to 60 hours per week",
+          "2-week sprints",
+          "Design, engineering, analytics",
+          "Support & product iterations",
+          "SLA and a priority channel",
+          "3-month minimum"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Answers to the most common questions",
+    "subtitle": "If your question isn't here, send a message and we'll come back with an analysis within a couple of hours.",
+    "items": [
+      {
+        "q": "How much does a turnkey website cost?",
+        "a": "Landing — from $3,800. Corporate site — from $7,800. SaaS platform with a design system — from $16,500. We send a precise estimate within 24 hours of the brief."
+      },
+      {
+        "q": "How long does launch take?",
+        "a": "Landing — 4 weeks, multi-page site — 6–7 weeks, SaaS platform — 8–12 weeks. Timelines are fixed in the contract and tied to milestones."
+      },
+      {
+        "q": "How do you work on a project?",
+        "a": "In 2-week sprints. You get a dedicated Telegram channel, a Linear board, and access to Figma. Weekly demos and retros."
+      },
+      {
+        "q": "Do you hand off and support after launch?",
+        "a": "Yes. We hand over all code, the repository, the design system, and documentation. Support is on a 20+ hour/month retainer or per scope."
+      },
+      {
+        "q": "Do you do design only or development only?",
+        "a": "Yes — you can take any block separately: branding, product design, engineering, or support. Most clients go for the full cycle."
+      },
+      {
+        "q": "Who owns the result?",
+        "a": "All source files and IP transfer to the client after the final payment. It's locked in by contract."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Start a new project",
+    "title": "Tell us about the task — we'll bring a team and a plan",
+    "subtitle": "Describe the project and goals; we'll come back with a preliminary estimate and case studies in your niche.",
+    "directLabel": "Direct contact",
+    "badges": {
+      "response": "Reply in 4 hours",
+      "nda": "NDA on request"
+    },
+    "benefits": [
+      "We respond within one business day",
+      "Free audit of your goals and metrics",
+      "We'll pick the optimal collaboration format"
+    ],
+    "nextSteps": [
+      {
+        "title": "Intro & brief",
+        "description": "30-minute call to align on the task, goals and constraints."
+      },
+      {
+        "title": "Estimate & plan",
+        "description": "Within 48 hours you receive a quote, roadmap and team."
+      },
+      {
+        "title": "Sprint kick-off",
+        "description": "We sign the contract and kick off in two-week sprints."
+      }
+    ],
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Anna",
+      "email": "Email",
+      "emailPlaceholder": "anna@studio.com",
+      "company": "Company",
+      "companyPlaceholder": "NOVA Studio · optional",
+      "budget": "Budget",
+      "budgetOptions": [
+        "under $4,000",
+        "$4,000 – $8,000",
+        "$8,000 – $17,000",
+        "$17,000+",
+        "Still thinking"
+      ],
+      "message": "Tell us about the project",
+      "messagePlaceholder": "Goals, current metrics, deadlines, references — anything that helps us prep for the call.",
+      "submit": "Send request",
+      "submitting": "Sending…",
+      "privacyPrefix": "By submitting, you agree to our",
+      "privacyLink": "privacy policy",
+      "privacySuffix": "."
+    },
+    "validation": {
+      "name": "Name must be at least 2 characters",
+      "emailRequired": "Please enter your email",
+      "emailFormat": "That email looks invalid",
+      "messageMin": "A few sentences please — context matters"
+    },
+    "success": {
+      "title": "Request sent",
+      "description": "Thank you! We'll email you within the next business day. Feel free to browse our case studies in the meantime.",
+      "watchCases": "View work",
+      "sendAnother": "Send another"
+    },
+    "toasts": {
+      "error": "Couldn't send the request. Please try again.",
+      "received": "Request received. Email isn't configured — we logged the data.",
+      "success": "Request sent. We'll be in touch!",
+      "network": "Something went wrong. Check your connection and try again.",
+      "copied": "Email copied",
+      "copyFailed": "Couldn't copy. Try manually."
+    },
+    "copyEmail": "Copy"
+  },
+  "footer": {
+    "ctaKicker": "Ready to start?",
+    "ctaTitle": "Tell us about the task — we'll send an estimate and a plan within 24 hours.",
+    "studio": "Studio",
+    "info": "Info",
+    "social": "Social",
+    "newsletter": {
+      "title": "NOVA Journal — once a month",
+      "subtitle": "Case studies, retros and product-design notes. No spam, ever.",
+      "placeholder": "you@company.com",
+      "cta": "Subscribe",
+      "success": "You're in — see you soon",
+      "done": "Subscribed",
+      "invalid": "Please check your email"
+    },
+    "studioLinks": {
+      "services": "Services",
+      "process": "Process",
+      "cases": "Work",
+      "pricing": "Pricing"
+    },
+    "infoLinks": {
+      "faq": "FAQ",
+      "testimonials": "Reviews",
+      "contact": "Contact",
+      "privacy": "Privacy"
+    }
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Page not found",
+    "subtitle": "Looks like this page wandered off into a retro. Head back home — that's where the good stuff is.",
+    "back": "Back to home",
+    "discoverCases": "View case studies"
+  },
+  "work": {
+    "badge": "Case study",
+    "title": "Selected case studies",
+    "subtitle": "A long-form look at strategy, design and engineering — six recent product launches from positioning to public release.",
+    "allCases": "All work",
+    "backToWork": "Back to work",
+    "meta": {
+      "client": "Client",
+      "year": "Year",
+      "duration": "Duration",
+      "team": "Team",
+      "services": "Services",
+      "link": "Live link",
+      "industry": "Industry"
+    },
+    "sections": {
+      "context": "Context",
+      "challenge": "Challenge",
+      "approach": "Approach",
+      "results": "Results",
+      "deliverables": "Deliverables",
+      "retrospective": "Retrospective",
+      "gallery": "Gallery",
+      "nextCase": "Next case study"
+    },
+    "items": {
+      "lumen": {
+        "industry": "B2B SaaS · analytics",
+        "title": "Relaunched Lumen — a SaaS for product teams",
+        "summary": "Brand, design system, marketing site and paid-traffic landings — shipped in 6 weeks.",
+        "context": "Lumen had outgrown its early-stage positioning and matured into a tool for product teams, but the site lagged behind. Demo conversion had been flat since fall.",
+        "challenge": "Re-frame the offer for a senior audience — Head of Product, Growth, Data — and put the core value front and center: see your product metrics in minutes, not hours.",
+        "approach": "We mapped 4 ICP personas and a message map. In parallel we shipped a Figma design system with tokens, prototyped 12 screens, and built a Next.js 14 marketing site with CMS and analytics. Performance kicked off in week 4 — pilot campaigns went live with the launch.",
+        "results": "Demo conversion grew 3.2×, average deal +34%, time on page 3:42. Lumen's team can now update content and ship new landings without us.",
+        "retrospective": "The big risk — running marketing in parallel with the build — was managed via daily syncs and a shared Linear board. Next time we'll add a 7-day quiet period after launch: paid traffic on day 1 made early metrics noisy.",
+        "deliverables": [
+          "Brand strategy and message map",
+          "Figma design system (180+ components)",
+          "30+ product illustrations",
+          "Marketing site on Next.js + CMS",
+          "Paid-traffic landings",
+          "Email + Telegram nurture launch"
+        ],
+        "gallery": [
+          {
+            "label": "Hero · homepage",
+            "tone": "primary"
+          },
+          {
+            "label": "Pricing matrix",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Onboarding modal",
+            "tone": "cyan"
+          },
+          {
+            "label": "Mobile dashboard",
+            "tone": "amber"
+          }
+        ]
+      },
+      "atlas": {
+        "industry": "Fintech · neobank",
+        "title": "Design system and site for Atlas, a neobank",
+        "summary": "Brand, Next.js front-end, and a dark theme with 3D hero — 8 weeks to public launch.",
+        "context": "Atlas launched as a bank for entrepreneurs: open API, instant cards, project-level expense tracking. The release needed a recognizable brand and a site that explains the value in 5 seconds.",
+        "challenge": "No visual brand existed — only a name and a working prototype. Tight timeline to launch, complex product integrations, and regulatory limits on copy.",
+        "approach": "Brand identity with a dark palette and an acid accent, plus a tone-of-voice doc. The site shipped with a dark theme, a Three.js hero, an interactive pricing module, and an expense calculator.",
+        "results": "Daily applications grew 4.2× over the prior landing. Lighthouse 98 / 100 in production. Landing NPS 72. Atlas moved from waitlist to open beta within 30 days.",
+        "retrospective": "Dark-by-default worked — but tightened our contrast bar. We re-did half the illustrations after the first QA pass. Going forward, dark products get a dedicated contrast QA pass before release.",
+        "deliverables": [
+          "Brandbook and identity",
+          "Design system with dark theme",
+          "Site on Next.js 14 + CMS",
+          "Three.js hero scene",
+          "Onboarding and pricing flows"
+        ],
+        "gallery": [
+          {
+            "label": "Hero · 3D scene",
+            "tone": "primary"
+          },
+          {
+            "label": "Pricing tiers",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Calculator",
+            "tone": "cyan"
+          },
+          {
+            "label": "Mobile cards",
+            "tone": "amber"
+          }
+        ]
+      },
+      "north": {
+        "industry": "EdTech · online courses",
+        "title": "North: an online courses platform from positioning to launch",
+        "summary": "Brand, landing, app, and an autofunnel — from kickoff to first sales in 10 weeks.",
+        "context": "North was entering the crowded online-courses market with an ambition to be 'not just another school'. Positioning, product, marketing, and an autofunnel all had to land together.",
+        "challenge": "Strong product, no recognizable brand. Team of two founders and two experts, aggressive timeline, fixed launch budget.",
+        "approach": "ICP brief, 3 strategic directions, picked 'learning through craft' as the wedge. Brand system, landing, and app shipped in parallel. Email + Telegram autofunnel went live the same day as the site.",
+        "results": "Purchase CR 9.4%, CAC down 41%, 1,800+ active students by month 3. The team now runs content via CMS and ships new cohorts independently.",
+        "retrospective": "Tight timeline forced ruthless scope cuts — blog and community moved to a retainer. Worth it: the launch felt focused, not rushed.",
+        "deliverables": [
+          "Brand strategy and identity",
+          "Landing on Next.js",
+          "Student dashboard",
+          "Email + Telegram autofunnel",
+          "Content guidelines"
+        ],
+        "gallery": [
+          {
+            "label": "Landing hero",
+            "tone": "primary"
+          },
+          {
+            "label": "Course catalog",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Student dashboard",
+            "tone": "cyan"
+          },
+          {
+            "label": "Onboarding email",
+            "tone": "amber"
+          }
+        ]
+      },
+      "orbit": {
+        "industry": "Mobility · car-sharing",
+        "title": "Brand and product for premium car-sharing Orbit",
+        "summary": "Identity, mobile app, and an outdoor + media campaign in the capital — 12 weeks end-to-end.",
+        "context": "Orbit entered the premium car-sharing segment with a fleet of 200 vehicles. They needed a brand that didn't read 'mass market' and a product that built trust on first touch.",
+        "challenge": "Premium in a market where 90% of players say 'cheap and fast'. We had to communicate the 30-second rental experience and reinforce the impression beyond the app.",
+        "approach": "Brand with a cosmic tone, an app with ultra-short flows (open, book, drive), and a launch media campaign in Moscow and St Petersburg.",
+        "results": "120K installs in 2 months, D30 retention 38%, brand awareness in the capital +62%.",
+        "retrospective": "We underestimated ASO at launch — the app got buried in the store. We brought in an ASO partner on retainer and broke into top-10 in the category in 3 weeks.",
+        "deliverables": [
+          "Brand strategy and identity",
+          "iOS / Android app",
+          "Marketing landing",
+          "Outdoor + display campaign",
+          "Social templates"
+        ],
+        "gallery": [
+          {
+            "label": "Brand and palette",
+            "tone": "primary"
+          },
+          {
+            "label": "App · booking",
+            "tone": "fuchsia"
+          },
+          {
+            "label": "Fleet map",
+            "tone": "cyan"
+          },
+          {
+            "label": "Outdoor campaign",
+            "tone": "amber"
+          }
+        ]
+      }
+    }
+  },
+  "journal": {
+    "badge": "Journal",
+    "title": "Notes from the studio",
+    "subtitle": "How we ship, design, and think — without filler.",
+    "all": "All posts",
+    "back": "Back to journal",
+    "backToJournal": "Back to journal",
+    "contents": "On this page",
+    "minRead": "min read",
+    "readingTime": "{minutes} min read",
+    "publishedOn": "Published",
+    "readMore": "Read post",
+    "morePosts": "More posts",
+    "nextPost": "Next post",
+    "posts": {
+      "process": {
+        "title": "How we ship a SaaS site in six weeks",
+        "excerpt": "Six weeks from kickoff to live, with strategy, brand, and engineering. Not magic — just a clear process.",
+        "intro": "The most common question we get is how we hit 6 weeks where other studios take 4 months. The short answer: discipline and a single team. The long answer is below.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Week 0 · kickoff"
+          },
+          {
+            "type": "p",
+            "text": "Before week 1 we run a short kickoff: a 90-minute working session with the client team, business metrics, a single product owner on the client side, and a frozen ICP. Without this, week 1 turns into an open-ended conversation about taste."
+          },
+          {
+            "type": "h2",
+            "text": "Weeks 1–2 · strategy and architecture"
+          },
+          {
+            "type": "p",
+            "text": "In parallel: market and ICP research, brand voice, information architecture. The designer starts on tokens and grid; the engineer sets up the repo and base CI. Demo every Friday."
+          },
+          {
+            "type": "h2",
+            "text": "Weeks 3–4 · design and content"
+          },
+          {
+            "type": "p",
+            "text": "Screens in Figma, validation against ICP scenarios, copy in pair with the client. We don't wait for everything to be 'approved' — pilot blocks ship to engineering immediately."
+          },
+          {
+            "type": "h2",
+            "text": "Weeks 5–6 · engineering and launch"
+          },
+          {
+            "type": "p",
+            "text": "Animations, forms, CMS, analytics. By week 5 the site is on staging; we run a beta with 20–30 ICP-matching people and gather feedback before public release."
+          },
+          {
+            "type": "h2",
+            "text": "What breaks the process"
+          },
+          {
+            "type": "p",
+            "text": "More than two points of accountability on the client side, demanding 'final sign-off before engineering starts', a scope change in week 5. Any of those, and the timeline slips."
+          }
+        ]
+      },
+      "design-tokens": {
+        "title": "Design tokens that scale",
+        "excerpt": "What design tokens really are, why they save your team on the 5th project, and how we ship them with Figma + Tailwind.",
+        "intro": "Design tokens are not 'a table of colors and shadows'. They're a contract between design and engineering. When the contract is missing, you get nights of arguing about hex codes.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Levels of tokens"
+          },
+          {
+            "type": "p",
+            "text": "We split tokens into three levels. Primitive — raw values (#5159ff, 16px). Semantic — intent (color.brand, space.lg). Component — local rules (button.primary.bg). Without the hierarchy, tokens collapse into a junk drawer."
+          },
+          {
+            "type": "h2",
+            "text": "Where tokens live"
+          },
+          {
+            "type": "p",
+            "text": "Source of truth: Figma Variables. We export JSON from Figma and transform it through style-dictionary into CSS custom properties. Tailwind picks them up via config — engineers get t-shirt classes like `text-foreground` and never think about hexes."
+          },
+          {
+            "type": "h2",
+            "text": "Dark mode and a11y"
+          },
+          {
+            "type": "p",
+            "text": "Dark mode is not 'invert the values' — it's a separate set of semantic tokens. We check contrast in Figma and run axe-core in CI. AA contrast is a hard requirement, not a 'nice to have'."
+          },
+          {
+            "type": "h2",
+            "text": "Ownership"
+          },
+          {
+            "type": "p",
+            "text": "One human owner for tokens — usually the lead designer. Token changes are PRs that require an engineer review. It takes 10 minutes a week and saves weeks of chaos at scale."
+          }
+        ]
+      },
+      "analytics": {
+        "title": "Analytics that actually drive decisions",
+        "excerpt": "Why every product site needs its own funnel, the 6 events that cover 80% of insights, and why we don't trust an aggregate conversion rate.",
+        "intro": "A site without analytics is a shop where nobody counts customers. Here is how we set up analytics for every new landing page and why we never optimise for a single \"overall conversion\".",
+        "blocks": [
+          { "type": "h2", "text": "The 6 events we always track" },
+          { "type": "p", "text": "Hero CTA, sticky CTA, contact form, scroll to 80%, case-study click, pricing click. That is enough to see the problem without drowning in data. Anything else we add only when a hypothesis demands it." },
+          { "type": "h2", "text": "Why aggregate conversion lies" },
+          { "type": "p", "text": "An overall conversion rate hides the most important fork: did the user come from an ICP channel or random traffic? We always split the funnel by at least three sources and judge them separately. It saves us from optimising things that were never broken." },
+          { "type": "h2", "text": "Where the events live" },
+          { "type": "p", "text": "GA4 and Plausible for traffic and attribution. PostHog for the product funnel and session replays. UTM tags carry campaign and creative — without them, two months later nothing tells you what worked." },
+          { "type": "h2", "text": "What we do with the numbers" },
+          { "type": "p", "text": "Once every two weeks we review the dashboard with the client: one hypothesis, one metric, one decision. More than two hypotheses on the table is no longer analytics, it's a ritual." }
+        ]
+      },
+      "design-review": {
+        "title": "Design review without the pain — a process that doesn't kill velocity",
+        "excerpt": "How we set up design review so the team doesn't lose days to revisions and the client still sees clear progress every Friday.",
+        "intro": "Every designer knows that a review can cost two hours or two weeks — it depends entirely on the format. We landed on a simple system after four projects, and it now scales to large teams.",
+        "blocks": [
+          { "type": "h2", "text": "One channel, one board" },
+          { "type": "p", "text": "All revisions live in Figma comments tagged P0/P1/P2 by priority. No Slack threads, no spreadsheets. If a revision isn't in Figma, it doesn't exist. That alone removes 80% of context loss." },
+          { "type": "h2", "text": "Sync once a week, async every day" },
+          { "type": "p", "text": "One 30-minute call on Friday, everything else as comments and Loom videos. Designers stop sitting in meetings and start designing." },
+          { "type": "h2", "text": "The two-rounds rule" },
+          { "type": "p", "text": "Two revision rounds max per screen. If we hit a third round, the brief or the goal is broken — we go back up the stack instead of pushing pixels." },
+          { "type": "h2", "text": "Tones instead of taste" },
+          { "type": "p", "text": "Instead of \"I don't like it\" we ask the client to pick a tone — more premium, more engineered, more warm. That turns taste into a direction we can iterate against." }
+        ]
+      },
+      "lumen-retro": {
+        "title": "Lumen retrospective: what 6 weeks taught us",
+        "excerpt": "Demo conversion grew 3.2× — but not because the design 'looked nice'. Here's the real reason.",
+        "intro": "Eight weeks have passed since Lumen launched — long enough to look at the numbers and pull honest takeaways. Sharing what worked, what didn't, and what we'll change next time.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "What worked"
+          },
+          {
+            "type": "p",
+            "text": "The biggest conversion lift didn't come from the homepage, it came from the role-specific landings — separate pages for PM, Growth, and Data. When the ICP sees their context in 5 seconds, the demo form gets filled out 4× more often."
+          },
+          {
+            "type": "h2",
+            "text": "What didn't work the first time"
+          },
+          {
+            "type": "p",
+            "text": "The pricing calculator in the hero. The idea was an interactive ROI; in practice, users got lost by the third slider. We moved the calculator down to the pricing page and replaced the hero with three clean tiers."
+          },
+          {
+            "type": "h2",
+            "text": "Where 80% of the impact is"
+          },
+          {
+            "type": "p",
+            "text": "80% of the lift came from two screens: hero and social proof. If you have five hours of optimization budget — spend them there. Don't go redesign the FAQ if your hero doesn't communicate value in 5 seconds."
+          },
+          {
+            "type": "h2",
+            "text": "What we'll change next time"
+          },
+          {
+            "type": "p",
+            "text": "Previously we placed social proof near the bottom — clients reached the end and trusted us. Now we're moving logos and one strong quote right under the hero. The next case will be the experiment."
+          }
+        ]
+      }
+    }
+  },
+  "command": {
+    "placeholder": "Search, sections, case studies…",
+    "title": "Command menu",
+    "sections": {
+      "navigation": "Navigation",
+      "cases": "Case studies",
+      "journal": "Journal",
+      "actions": "Actions"
+    },
+    "actions": {
+      "toggleTheme": "Toggle theme",
+      "scrollTop": "Back to top",
+      "contact": "Get in touch"
+    },
+    "empty": "Nothing matched. Try a different keyword.",
+    "hint": "Open command menu",
+    "open": "Open command menu",
+    "openShort": "Search",
+    "shortcut": "⌘ K",
+    "close": "Close"
+  },
+  "lighthouse": {
+    "label": "Live Lighthouse",
+    "perf": "Perf",
+    "seo": "SEO",
+    "a11y": "A11y",
+    "bp": "BP",
+    "error": "scores temporarily unavailable",
+    "loading": "syncing scores…",
+    "tooltip": "Live Lighthouse scores from PageSpeed Insights"
+  }
+}
