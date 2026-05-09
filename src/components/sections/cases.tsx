@@ -188,16 +188,35 @@ function ScrollDot({
 
 function HorizontalCases({ data }: { data: EnrichedCase[] }) {
   const containerRef = React.useRef<HTMLDivElement | null>(null);
+  const rowRef = React.useRef<HTMLDivElement | null>(null);
   const reduced = useReducedMotion();
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end end"],
   });
-  const move = useTransform(
-    scrollYProgress,
-    [0, 1],
-    ["0%", `-${(data.length - 1) * 100}%`],
-  );
+  // Measure how far the row needs to translate so that the LAST card lines
+  // up flush with the right edge of the viewport at progress=1. Using a real
+  // pixel measurement keeps the math correct across mobile, tablet, ultrawide
+  // and the `max-w-[680px]` per-card cap (which the previous %-based formula
+  // ignored, sending the row hundreds of vw past the viewport).
+  const [scrollDistance, setScrollDistance] = React.useState(0);
+  React.useLayoutEffect(() => {
+    const el = rowRef.current;
+    if (!el) return;
+    const update = () => {
+      const overflow = el.scrollWidth - window.innerWidth;
+      setScrollDistance(Math.max(0, overflow));
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    window.addEventListener("resize", update);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", update);
+    };
+  }, [data.length]);
+  const move = useTransform(scrollYProgress, [0, 1], [0, -scrollDistance]);
 
   if (reduced) {
     return (
@@ -219,6 +238,7 @@ function HorizontalCases({ data }: { data: EnrichedCase[] }) {
     >
       <div className="sticky top-16 flex h-[calc(100vh-4rem)] items-center overflow-hidden">
         <motion.div
+          ref={rowRef}
           style={{ x: move }}
           className="flex w-max gap-8 px-4 will-change-transform sm:px-8"
         >
