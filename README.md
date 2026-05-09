@@ -14,7 +14,7 @@ Multilingual, animated, accessible, and built to feel like the real thing.
 [![Playwright](https://img.shields.io/badge/E2E-Playwright-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev)
 [![License](https://img.shields.io/badge/license-All%20rights%20reserved-c4302b.svg)](./LICENSE)
 
-[Live (Railway)](https://landing-page-for-an-agency-production.up.railway.app) · [Source](https://github.com/timur123-star/Landing-page-for-an-agency)
+[**Live demo →**](https://landing-page-for-an-agency-production.up.railway.app) · [Source](https://github.com/timur123-star/Landing-page-for-an-agency) · [Lumen Analytics (live)](https://lumen-analytics-new.up.railway.app/) · [Lumen Analytics (source)](https://github.com/timur123-star/Lumen-Analytics)
 
 </div>
 
@@ -33,6 +33,14 @@ the shelf. Every section, animation, illustration, and translation lives in this
 > **Disclaimer.** NOVA Agency is not a real company — the brand, copy, case studies, and
 > testimonials are fictional, written for portfolio purposes only.
 > Designed and built by **Тимур Валерьевич**.
+
+> **Companion product — Lumen Analytics.** This landing page is the first half of a
+> two-part portfolio piece. The fictional studio NOVA Agency "built" **Lumen Analytics** —
+> a login-gated, multilingual SaaS analytics dashboard with a streaming Groq AI assistant,
+> ⌘K palette, view-transition theme switch and seeded PRNG demo data — explore it live at
+> [lumen-analytics-new.up.railway.app](https://lumen-analytics-new.up.railway.app/)
+> ([source](https://github.com/timur123-star/Lumen-Analytics)). Together they tell a single
+> product story: agency landing → product dashboard.
 
 ---
 
@@ -212,7 +220,7 @@ with `attribute="class"`. The theme switch uses the View Transitions API with a 
   email: string;       // RFC 5322 valid
   company?: string;    // 0..100 chars
   budget?: string;     // one of the UI options
-  message: string;     // 20..2000 chars
+  message: string;     // 20..1000 chars
 }
 ```
 
