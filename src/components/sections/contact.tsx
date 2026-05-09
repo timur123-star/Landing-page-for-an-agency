@@ -1,5 +1,4 @@
 "use client";
-
 import * as React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -16,7 +15,6 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { useTranslations } from "next-intl";
-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -27,15 +25,12 @@ import { AnimatedText } from "@/components/motion/animated-text";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
 import { createContactSchema, type ContactInput } from "@/lib/contact";
-
 export function Contact() {
   const t = useTranslations("contact");
   const [submitted, setSubmitted] = React.useState(false);
-
   const benefits = t.raw("benefits") as string[];
   const budgetOptions = t.raw("form.budgetOptions") as string[];
   const nextSteps = t.raw("nextSteps") as { title: string; description: string }[];
-
   const schema = React.useMemo(
     () =>
       createContactSchema({
@@ -46,7 +41,6 @@ export function Contact() {
       }),
     [t],
   );
-
   const {
     register,
     handleSubmit,
@@ -64,12 +58,10 @@ export function Contact() {
       message: "",
     },
   });
-
   const selectedBudget = watch("budget");
   const messageValue = watch("message") ?? "";
   const messageLength = messageValue.length;
-  const messageLimit = 800;
-
+  const messageLimit = 1000;
   const onSubmit = async (data: ContactInput) => {
     try {
       const response = await fetch("/api/contact", {
@@ -78,12 +70,10 @@ export function Contact() {
         body: JSON.stringify(data),
       });
       const json = await response.json();
-
       if (!response.ok || !json.ok) {
         toast.error(t("toasts.error"));
         return;
       }
-
       setSubmitted(true);
       reset();
       if (json.delivered === false) {
@@ -96,7 +86,6 @@ export function Contact() {
       toast.error(t("toasts.network"));
     }
   };
-
   return (
     <section
       id="contact"
@@ -112,7 +101,6 @@ export function Contact() {
             <div className="absolute -right-32 top-0 size-[460px] rounded-full bg-fuchsia-500/15 blur-3xl" />
             <div className="absolute inset-0 grid-bg opacity-30 mask-radial-faded dark:opacity-20" />
           </div>
-
           <div className="grid gap-10 p-8 sm:p-12 lg:grid-cols-12 lg:gap-16">
             <Reveal className="lg:col-span-5">
               <Badge variant="primary">{t("badge")}</Badge>
@@ -126,7 +114,6 @@ export function Contact() {
               <p className="mt-4 text-pretty text-base text-muted-foreground sm:text-lg">
                 {t("subtitle")}
               </p>
-
               <ul className="mt-8 space-y-3">
                 {benefits.map((b) => (
                   <li
@@ -140,7 +127,6 @@ export function Contact() {
                   </li>
                 ))}
               </ul>
-
               <div className="mt-6 flex flex-wrap gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
                 <span className="inline-flex items-center gap-1.5 rounded-full border border-border/70 bg-background/40 px-2.5 py-1">
                   <Clock3 className="size-3 text-emerald-400" />
@@ -151,7 +137,6 @@ export function Contact() {
                   {t("badges.nda")}
                 </span>
               </div>
-
               {nextSteps && nextSteps.length > 0 ? (
                 <ol className="mt-8 space-y-3">
                   {nextSteps.map((step, idx) => (
@@ -174,7 +159,6 @@ export function Contact() {
                   ))}
                 </ol>
               ) : null}
-
               <div className="mt-8 flex items-center gap-3 rounded-2xl border border-border/70 bg-background/40 p-4 backdrop-blur">
                 <span className="inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/15 text-primary">
                   <Mail className="size-4" />
@@ -206,7 +190,6 @@ export function Contact() {
                 </button>
               </div>
             </Reveal>
-
             <Reveal delay={0.1} className="lg:col-span-7">
               {submitted ? (
                 <motion.div
@@ -339,7 +322,6 @@ export function Contact() {
                       ) : null}
                     </div>
                   </div>
-
                   <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                     <p className="text-xs text-muted-foreground">
                       {t("form.privacyPrefix")}{" "}
